@@ -1,0 +1,158 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/*Acoordion*/
+
+/*.accordion-root {*/
+/*  width: 700px;*/
+/*  max-width: 800px;*/
+/*  margin: 20px auto;*/
+/*}*/
+
+/*.accordion-item {*/
+/*  border: 1px solid #ccc;*/
+/*  margin-bottom: 10px;*/
+/*  border-radius: 4px;*/
+/*  overflow: hidden;*/
+/*}*/
+
+/*.accordion-header {*/
+/*  background-color: #f0f0f0;*/
+/*}*/
+
+/*.accordion-trigger {*/
+/*  width: 100%;*/
+/*  padding: 12px;*/
+/*  font-size: 16px;*/
+/*  text-align: left;*/
+/*  background: none;*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*.accordion-trigger:hover {*/
+/*  background-color: #e0e0e0;*/
+/*}*/
+
+/*.accordion-content {*/
+/*  padding: 12px;*/
+/*  background-color: #fff;*/
+/*}*/
+
+/*.product-row {*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*  border-bottom: 1px solid #eee;*/
+/*  padding: 8px 0;*/
+/*}*/
+
+/*.product-info {*/
+/*  !*flex-grow: 1;*!*/
+/*}*/
+
+/*.product-name {*/
+/*  font-weight: bold;*/
+/*}*/
+
+/*.product-id {*/
+/*  font-size: 12px;*/
+/*  color: #666;*/
+/*}*/
+
+/*.product-status {*/
+/*  text-align: right;*/
+/*  min-width: 100px;*/
+/*}*/
+
+/*.product-active {*/
+/*  font-weight: bold;*/
+/*  font-size: 14px;*/
+/*}*/
+
+/*.product-active.active {*/
+/*  color: green;*/
+/*}*/
+
+/*.product-active.inactive {*/
+/*  color: red;*/
+/*}*/
+
+/*.product-amount {*/
+/*  font-size: 13px;*/
+/*}*/
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.summary-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.summary-table th,
+.summary-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.summary-header {
+  background-color: #c4c4c4;
+}
+
+.group-row {
+  background-color: #f9f9f9;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-header-row {
+  background-color: #d3d3d3;
+}
+
+.product-row.active {
+  background-color: #a0d995;
+}
+
+.product-row.cancelled {
+  background-color: #e88c8c;
+}
